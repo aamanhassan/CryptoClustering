@@ -95,6 +95,21 @@ Add the "coin_id" column in the hover_cols parameter to identify the cryptocurre
 
 <img width="628" alt="Screenshot 2023-12-17 at 2 07 49 PM" src="https://github.com/aamanhassan/CryptoClustering/assets/139508376/e6269746-08f7-430d-be3e-8d6535d52517">
 
+# Visualize and Compare the Results
+In this section, you will visually analyze the cluster analysis results by contrasting the outcome with and without using the optimization techniques.
+
+# Composite plot to contrast the Elbow curves
+elbow_plot + elbow_plot_pca
+
+<img width="1010" alt="Screenshot 2023-12-17 at 2 15 37 PM" src="https://github.com/aamanhassan/CryptoClustering/assets/139508376/f5e4f92c-cb98-4803-b1c9-faa79123aab1">
+
+
+# Composite plot to contrast the clusters
+clusters_plot + clusters_plot_pca
+
+<img width="1003" alt="Screenshot 2023-12-17 at 2 16 13 PM" src="https://github.com/aamanhassan/CryptoClustering/assets/139508376/abdf3024-8d2b-476a-9379-79fe8f388ae9">
+
+
 Answer the following question:
 # Question: After visually analyzing the cluster analysis results, what is the impact of using fewer features to cluster the data using K-Means?
 
